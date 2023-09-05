@@ -1,0 +1,23 @@
+Top-Down Welt
+Häuser, in denen man Topdown / Sidescroller Level spielt
+Top-Down:
+	Gegner
+	Umgebung
+	Tilemap
+	Häuser, in die man rein gehen kann
+	(Kisten, die man zerstören kann)
+	Items, die man aufheben kann (Schlüssel & Münzen)
+Platformer:
+	Hebel / Knöpfe
+	Platformen (die sich bewegen)
+	Tilemap
+	(Kiste, die man verschieben kann)
+UI - Ansicht, wie viele Items / Leben hat man
+Audio - Soundeffekte & Musik
+
+Woher kriege ich die Assets?
+
+Fantasy - Monster zerstört Dorf und der Spieler verfolgt es durch den Dungeon
+
+Dialoge anzeigen als Texteinblendung - Im Stil von Visual Novels
+-> So machen wir die Cutscenes mit dem Monster (Standbild mit Texteinblendung)
