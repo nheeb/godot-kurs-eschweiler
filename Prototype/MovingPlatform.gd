@@ -6,7 +6,6 @@ extends Node2D
 var travel_distance: float
 var travel_direction: Vector2
 var time: float = 0.0
-str()
 
 # Wird aufgerufen, wenn die Szene geladen wird
 func _ready():
