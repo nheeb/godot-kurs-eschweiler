@@ -6,7 +6,12 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4xr2x"]
 size = Vector2(60, 60)
 
-[node name="PrototypeWorldPlatformer" type="Node2D"]
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_wjf2e")]
+position = Vector2(0, -69)
+
+[node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Platform" type="StaticBody2D" parent="."]
 
@@ -34,7 +39,4 @@ texture = ExtResource("1_qgc3r")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3"]
 shape = SubResource("RectangleShape2D_4xr2x")
 
-[node name="PrototypePlayerPlatformer" parent="." instance=ExtResource("2_wjf2e")]
-position = Vector2(0, -69)
-
-[node name="Camera2D" type="Camera2D" parent="."]
+[editable path="Player"]

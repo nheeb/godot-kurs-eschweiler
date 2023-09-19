@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://jx4o7f7etl18"]
+
+[ext_resource type="Texture2D" uid="uid://7a3ijei1651g" path="res://icon.svg" id="1_k3qfv"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dir4v"]
+
+[node name="Nodes" type="Node"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.564706, 1, 0.396078, 1)
+position = Vector2(123, 123)
+rotation = 0.47822
+scale = Vector2(2, 2)
+texture = ExtResource("1_k3qfv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("WorldBoundaryShape2D_dir4v")
